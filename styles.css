@@ -22,6 +22,21 @@ html::-webkit-scrollbar{
 #about{
     height: 100vh;
 }
+.carousel-item{
+    width: 100%;
+    height: 65vh;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%);
+    object-fit: contain;
+}
+.carousel-caption{
+    background: #666;
+    border-radius: 10px;
+    opacity: 0.85;
+}
 #skills{
     background: url('images/background3.jpeg');
     background-position: top;
