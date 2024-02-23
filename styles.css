@@ -20,10 +20,7 @@ html::-webkit-scrollbar{
     height: 100vh;
 }
 #about{
-    /* background: url('images/background.jpeg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    height: 100vh;
 }
 #skills{
     background: url('images/background3.jpeg');
@@ -60,6 +57,9 @@ html::-webkit-scrollbar{
 /* media query for mobile devices */
 @media only screen and (max-width: 1766px){
     
+    #about{
+        height: auto;
+    }
     #skills{
         height: auto;
         background: url('images/background.jpeg');
