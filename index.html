@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Bongani K Thwala</title>
@@ -86,12 +87,12 @@
     <section id="about" class="bg-light">
         <div class="container">
           <div class="container pt-2 mb-4">
-            <h1 class="text-center text-secondary mb-lg-4 pt-5 animate__animated animate__fadeInDown">About Me</h1>
+            <h1 class="text-center text-secondary mb-lg-4 pt-5" data-aos="fade-up">About Me</h1>
             <div class="row align-items-center justify-content-center pt-4">
-              <div class="col-lg-4 mb-lg-4 animate__animated animate__fadeInLeft">
+              <div class="col-lg-4 mb-lg-4" data-aos="fade-up">
                 <img src="images/IMG-20221026-WA0028.jpg" alt="" class="img-fluid rounded float-start img-thumbnail mb-lg-4">
               </div>
-              <div class="col-lg-4 mb-4 animate__animated animate__fadeInRight">
+              <div class="col-lg-4 mb-4" data-aos="fade-down">
                 <h2 class="text-secondary mb-2">Bongani K Thwala</h2>
                 <p class="text-secondary">Hello there! 👋 I'm Bongani Keith Thwala, a passionate front-end developer with a fresh perspective and a national diploma in IT: Software Development from Tshwane University of Technology. As a recent graduate, I bring a blend of theoretical knowledge and hands-on experience to the world of web development. <br> <br>
                 Currently, I'm an IT intern at ABT Telecoms, where I'm gaining valuable insights into the industry and honing my skills in crafting seamless and user-friendly web experiences. My journey involves translating design concepts into interactive and responsive websites, using HTML5, CSS, bootstrap, and Javascript.
@@ -153,14 +154,14 @@
     <!-- portfolio -->
     <section id="portfolio" class="bg-light">
         <div class="container-fluid mb-lg-4">
-          <div class="text-center pt-5">
-            <h2 class="text-secondary pt-4  animate__animated animate__fadeInDown">My Portfolio</h2>
+          <div class="text-center pt-5" data-aos="fade-down">
+            <h2 class="text-secondary pt-4">My Portfolio</h2>
             <p class="lead text-secondary">Explore my achievements, to journey through my professional milestones and accomplishments.</p>
           </div>
 
           <div class="container mb-4">
             <div class="row">
-              <div class="col-lg-4 mb-4 animate__animated animate__fadeInLeft">
+              <div class="col-lg-4 mb-4" data-aos="fade-up">
                 <div class="card text-center bg-secondary">
                   <h4 class="card-title text-light">Zarfinco Admin portal</h4>
                   <img src="images/ZarfinCo.png" alt="">
@@ -168,7 +169,7 @@
                 </div>
               </div>
     
-              <div class="col-lg-4 mb-4 animate__animated animate_fadeIn">
+              <div class="col-lg-4 mb-4" data-aos="fade-up">
                 <div class="card text-center bg-secondary">
                   <h4 class="card-title text-light">Tshwane Varsity Hackathon</h4>
                   <img src="images/tvh_logo.jpg" alt="">
@@ -179,7 +180,7 @@
                 </div>
               </div>
     
-              <div class="col-lg-4 mb-4 animate__animated animate__fadeInRight">
+              <div class="col-lg-4 mb-4" data-aos="fade-up">
                 <div class="card text-center bg-secondary">
                   <h4 class="card-title text-light">TUT Graduate</h4>
                   <img src="images/Tshwane_University_of_Technology_logo.svg.png" class="bg-white" alt="">
@@ -248,5 +249,7 @@
     </nav>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scrollScript.js"></script>
 </body>
 </html>
