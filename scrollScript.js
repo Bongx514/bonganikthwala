@@ -1,4 +1,4 @@
 AOS.init({
     offset: 400,
-    delay: 600 
+    delay: 400 
 });
