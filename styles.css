@@ -15,9 +15,6 @@ html::-webkit-scrollbar{
 *{
     font-family: 'San Francisco';
 }
-.navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity value (0.8) as needed */
-  }
 .smileyFace{
     font-size: 5rem;
 }
