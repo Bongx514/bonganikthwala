@@ -32,7 +32,7 @@ html::-webkit-scrollbar{
 .img-fluid{
     filter: grayscale(90%);
 }
-#about{
+#about,#portfolio{
     background: url('images/background.jpeg');
     background-position: top;
     background-repeat: no-repeat;
@@ -60,17 +60,22 @@ html::-webkit-scrollbar{
     opacity: 0.85;
 }
 
-#portfolio{
-    background: url('images/background2.jpeg');
+#skills{
+    background: url('images/white_background3.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#portfolio .card{
+    background-color: rgba(0, 0, 0, 0.616);
+    border: none;
+}
+#contact{
+    background-color: rgba(75, 74, 74, 0.363);
+    background: url('images/white_background.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-}
-#portfolio .card{
-    background-color: rgba(0, 0, 0, 0.788);
-}
-#contact{
     height: 90vh;
 }
 
@@ -99,6 +104,10 @@ html::-webkit-scrollbar{
     #about{
         height: auto;
     }
+    .xp-container{
+        display: inline;
+    }
+    
     .carousel-item{
     width: 100%;
     height: 40vh;
@@ -110,3 +119,4 @@ html::-webkit-scrollbar{
         height: 100vh;
     }
 }
+
