@@ -32,15 +32,9 @@ html::-webkit-scrollbar{
 .img-fluid{
     filter: grayscale(90%);
 }
-#about,#portfolio{
-    background: url('images/background.jpeg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-#about .aboutme{
-    background-color: rgba(255, 255, 255, 0.039)
+#about .card{
+    width: 18rem;
+    height: 22rem;
 }
 .carousel-item{
     width: 100%;
@@ -59,23 +53,35 @@ html::-webkit-scrollbar{
     border-radius: 10px;
     opacity: 0.85;
 }
-
 #skills{
     background: url('images/white_background3.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover; 
 }
-#portfolio .card{
-    background-color: rgba(0, 0, 0, 0.616);
-    border: none;
+#portfolio{
+    height: 100vh;
 }
-#contact{
-    background-color: rgba(75, 74, 74, 0.363);
-    background: url('images/white_background.jpg');
-    background-position: top;
+#portfolio .card{
+    border-color: #2196f3;
+    box-shadow: 2px, 2px, 2px rgba(0, 0, 0, 0.21);
+}
+#codingSkills{
+    background: url('images/background5.jpeg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.skill-item{
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: rgba(144, 144, 144, 0.78);
+}
+.skill-item i{
+    color: #0257d8;
+}
+#contact{
     height: 90vh;
 }
 
@@ -117,6 +123,9 @@ html::-webkit-scrollbar{
     }
     #contact{
         height: 100vh;
+    }
+    #about .card{
+        height: auto;
     }
 }
 
