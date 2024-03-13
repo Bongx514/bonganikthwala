@@ -1,0 +1,61 @@
+   <!-- gallery -->
+    <section id="gallery" class="bg-light">
+      <div class="container-fluid" data-aos="fade-in">
+        <div class="text-center pt-5">
+          <h1 class="text-black mb-4 pt-4">Gallery</h1>
+          <p class="lead text-dark"></p>
+        </div>
+        <div class="row pb-lg-4">
+          <div class="col-lg-12 mb-lg-4">
+           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="images/tvh.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="images/tvh_img.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                  <img src="images/tvh-img2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of gallery -->
+
+    <ul class="w-100">
+                    <h3 class="display-9 pt-4"><i class="fa-solid fa-user-graduate"></i> Education</h3>
+                    <li><i class="fa-solid fa-building"></i> Institution: 
+                      <p>Tshwane University of Technology</p>
+                    </li>
+                    <li><i class="fa-solid fa-user"></i> Course: 
+                      <p>Ndip: IT Software Development</p>
+                    </li>
+                    <li><i class="fa-solid fa-file"></i> Status: 
+                      <p>Completed</p>
+                    </li>
+                  </ul>
+
+                  <ul class="w-100">
+                    <h3 class="display-9 pt-4"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+                    <li><i class="fa-solid fa-building"></i> Company: 
+                      <p>ABT Telecoms</p>
+                    </li>
+                    <li><i class="fa-solid fa-user"></i> Position: 
+                      <p>Intern (Front-end Developer)</p>
+                    </li>
+                    <li><i class="fa-solid fa-calendar-days"></i> Duration: 
+                      <p>05/06/2023 - Current</p>
+                    </li>
+                  </ul> 
