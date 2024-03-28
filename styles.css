@@ -21,7 +21,7 @@ html::-webkit-scrollbar{
 }
 .nav-item a:hover{
     scale: 1.05;
-    color: #5bc0de;
+    color: #0257d8;
     transition: .5s ease-in-out;
     background: transparent;
 }
@@ -36,7 +36,7 @@ html::-webkit-scrollbar{
     font-size: 5rem;
 }
 .img-fluid{
-    filter: grayscale(90%);
+    filter: grayscale(70%);
 }
 #about .card{
     width: 18rem;
@@ -75,7 +75,7 @@ html::-webkit-scrollbar{
     border-color: #f0ed4e;
 }
 #portfolio .card:nth-child(1){
-    border-color: #d9534f;
+    border-color: #0257d8;
 }
 #portfolio .card:hover{
     color: #000;

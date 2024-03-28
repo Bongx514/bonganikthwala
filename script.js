@@ -17,3 +17,24 @@ if (alertTrigger) {
     appendAlert('Your message was sent successfully!', 'success')
   })
 }
+
+// function changeBtnValue(){
+//   var btnReadMore = $('#btnReadMore');
+//   if (btnReadMore.text().trim() === 'Read more...'){
+//     btnReadMore.text('Show less');
+//   }
+//   else(btnReadMore.text().trim() === 'Show less'){
+//     btnReadMore.text('Read more...');
+//   }
+// }
+
+function changeBtnValue(){
+  let btnReadmore = document.querySelector('#btnReadMore');
+
+  if (btnReadmore.innerText.trim() === 'Read more...'){
+    btnReadmore.innerText = 'Show less...';
+  }
+  else if (btnReadmore.innerText.trim() === 'Show less...'){
+    btnReadmore.innerText = 'Read more...';
+  }
+}
